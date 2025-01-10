@@ -1,0 +1,32 @@
+{
+	"client_info": {
+		"class": "com.pennypop.platform.AndroidOS$AndroidClientInfo",
+		"display": "TP1A.220624.014.RUSSIA666",
+		"country_code": "RU",
+		"device_id": "66666666-6666-6666-6666-666666666666",
+		"model": "Z-PHONE",
+		"board": "bengal",
+		"brand": "samsung",
+		"hardware": "qcom",
+		"fb_attr_id": "FBATTRID:66666666-6666-6666-6666-666666666666",
+		"user": "dpi",
+		"android_id": "8b96552c7939187b",
+		"imei": null,
+		"mac": "02:00:00:00:00:00",
+		"manufacturer": "samsung",
+		"sdk": 33,
+		"limit_ad_track": "0",
+		"product": "zphonensxx",
+		"type": "user",
+		"id": "TP1A.220624.014",
+		"fingerprint": "samsung",
+		"os_version": "RUSSIA",
+		"bootloader": "RUSSIA",
+		"build_flavor": "google"
+	},
+	"client_version": "a.5.32.1",
+	"game_type": "monsters",
+	"udid": null,
+	"place": "playcamp",
+	"locale": "ru"
+}

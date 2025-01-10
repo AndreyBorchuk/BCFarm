@@ -1,0 +1,16 @@
+{
+	"event_id": "lw3jBCh0WmwGOwJ0zOBQZQ",
+	"battle_id": null,
+	"game_type": "monsters",
+	"combos": 3,
+	"place": "playcamp",
+	"total_damage": 219,
+	"udid": null,
+	"locale": "ru",
+	"skills_used": [],
+	"dungeon": null,
+	"wave_damages": [
+		[73, 73, 73]
+	],
+	"client_version": "a.5.32.1"
+}
