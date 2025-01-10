@@ -1,7 +1,7 @@
 import api
 
 
-farmer_udid = ""
+farmer_udid = "tE6RwldSFcLSQ66x3wmZNw"
 ids = {
     "exodawn": {
         "ids": [

@@ -22,8 +22,8 @@ def create_account(token):
     api.referral_code(udid, token)
 
 
-farmer_udid = "dn7RR6j578qJgxNlMlESuA"
-farmer_token = "kw5fmf"
+farmer_udid = "tE6RwldSFcLSQ66x3wmZNw"
+farmer_token = "2vucu"
 while True:
     inventory = api.inventory(farmer_udid)
     if (inventory is None):
