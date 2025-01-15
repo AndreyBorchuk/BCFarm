@@ -1,6 +1,13 @@
 import api
 import string, random
-import time
+import time, json
+
+
+def get_state(key):
+    states_file = open("data\statuses.json")
+    states = json.load(states_file)
+    states_file.close()
+    return states[key]
 
 
 def get_random_name():
@@ -20,18 +27,16 @@ def create_account(token):
         print("Error while request room")
         return 0
     api.referral_code(udid, token)
+    print(1)
 
 
 farmer_udid = "tE6RwldSFcLSQ66x3wmZNw"
 farmer_token = "2vucu"
 while True:
     inventory = api.inventory(farmer_udid)
-    if (inventory is None):
+    if inventory is None:
         continue
-    if (len(inventory["monster_inventory"]["monsters"]) < 305):
+    if len(inventory["monster_inventory"]["monsters"]) < 355 and get_state("is_farm") == True:
         for i in range(80):
-            try:
-                create_account(farmer_token)
-            except:
-                pass
+            create_account(farmer_token)
     time.sleep(10)

@@ -49,7 +49,7 @@ register_push_data = json.load(register_push)
 register_push.close()
 
 event_donate = open("monster_event_donate.json")
-event_donate_data = json.load(register_push)
+event_donate_data = json.load(event_donate)
 event_donate.close()
 
 url = "http://battlecamp.com/api/"
